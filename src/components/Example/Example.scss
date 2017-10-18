@@ -1,0 +1,9 @@
+@import '../../../scss/base/colors';
+
+.container {
+    margin: 0;
+    font-style: italic;
+    p {
+        color: $alto;
+    }
+}
