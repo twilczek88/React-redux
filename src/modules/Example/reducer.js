@@ -1,3 +1,4 @@
+//import example reducer in redux/reducers
 const initialState = {
     foo: 0,
     bar: 'initial State'

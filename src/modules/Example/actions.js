@@ -1,3 +1,4 @@
+//import actions in Example container
 export const onIncrement = newBar => {
     return {
         type: 'INCREMENT',

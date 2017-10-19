@@ -3,7 +3,6 @@ import { Route, Switch } from 'react-router-dom';
 import CSSModules from 'react-css-modules';
 
 import styles from './Example.scss';
-// import store from '../../redux/store.js';
 
 class Example extends Component {
 

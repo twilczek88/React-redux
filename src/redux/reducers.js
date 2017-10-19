@@ -1,3 +1,4 @@
+//import reducers in redux/store 
 import { combineReducers } from 'redux';
 
 import exampleReducer from '../modules/Example/reducer.js';
