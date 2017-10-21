@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 
 import store from './redux/store.js';
-import RouterContent from './components/RouterContent/RouterContent.jsx';
+import Layout from './containers/Layout/Layout.js';
 
 class Root extends Component {
     render(){
         return <Provider store = { store }>
-            <RouterContent/>
+            <Layout/>
         </Provider>
     }
 }
