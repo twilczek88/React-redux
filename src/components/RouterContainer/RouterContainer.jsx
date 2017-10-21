@@ -7,10 +7,10 @@ import RouterContent from '../../components/RouterContent/RouterContent.jsx';
 
 class RouterContainer extends Component {
   render() {
-      return <div>
+      return <main>
         <Navigation/>
         <RouterContent/>
-      </div>
+      </main>
   }
 }
 
